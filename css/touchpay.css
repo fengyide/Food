@@ -1,0 +1,141 @@
+/*
+* @Author: 123
+* @Date:   2018-08-11 12:33:28
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-17 11:25:18
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+
+}
+.return{
+	width: 100%;
+	height: 0.88rem;
+	background: #e60012;
+	line-height: 0.88rem;
+	font-size: 0.6rem;
+} 
+.return a{
+	color: white;
+	margin-left: 0.24rem;
+}
+.return img{
+	width: 3.68rem;
+	height: 0.5rem;
+	margin-left: 1.26rem;
+}
+.center{
+	width: 100%;
+	height: calc(100% - 0.88rem);
+	background: white;
+	padding: 0.24rem;
+}
+.center .bank{
+	width: 6.14rem;
+	height: 1.2rem;
+	background: white;
+	margin-left: 0.45rem;
+	border-radius: 0.2rem;
+	border: 0.02rem solid #ebebeb;
+	border-top: 0.05rem dotted red;
+	display: flex;
+	flex-direction: row;
+}
+.center .bank img{
+	width: 2.5rem;
+	height: 0.7rem;	
+	margin-top: 0.25rem;
+	margin-left: 0.2rem;
+}
+.center .bank a{
+	font-size: 0.25rem;
+	color: red;
+	line-height: 1.2rem;
+	margin-left: 0.1rem;
+	font-weight: bold;
+}
+.center .money{
+	width: 6.14rem;
+	height: 1.8rem;
+	background: white;
+	margin-top: 0.2rem;
+	margin-left: 0.45rem;
+	border-radius: 0.2rem;
+/* 	border: 0.02rem solid #f2f2f2; */
+	border-bottom: 0.05rem dotted red;
+	display: flex;
+	flex-direction: column;
+}
+.center .money .one{
+	font-size: 0.6rem;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.center .money .word{
+	font-size: 0.2rem;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	/* margin-top: 0.2rem; */
+}
+.center .xinxi{
+	width: 6.14rem;
+	height: 1.2rem;
+	margin-left: 0.45rem;
+	border-radius: 0.2rem;
+	background: white;
+
+}
+.center .xinxi img{
+	width: 4.1rem;
+	height: 0.46rem;
+	margin-left: 1rem;
+	margin-bottom: 0.2rem;
+}
+.center .touch{
+	width: 6.14rem;
+	height: 6rem;
+	margin-left: 0.45rem;
+	/* border-radius: 0.2rem; */
+	background: white;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+
+}
+.center .touch img{
+	width: 2.18rem;
+	height: 2.04rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+.center .touch .id{
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.center .touch .word{
+	font-size: 0.3rem;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.1rem;
+}

@@ -1,0 +1,54 @@
+/*
+* @Author: 123
+* @Date:   2018-08-08 11:16:54
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-08 11:17:10
+*/
+@media screen and (min-width: 320px){
+	html{
+		font-size: calc(320/750*100px);
+	}
+	
+}
+@media screen and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px);
+	}
+	
+}
+@media screen and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px);
+	}
+	
+}
+@media screen and (min-width: 412px){
+	html{
+		font-size: calc(412/750*100px);
+	}
+	
+}
+@media screen and (min-width: 415px){
+	html{
+		font-size: calc(415/750*100px);
+	}
+	
+}
+@media screen and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px);
+	}
+	
+}
+@media screen and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px);
+	}
+	
+}
+@media screen and (min-width: 1024px){
+	html{
+		font-size: calc(1024/750*100px);
+	}
+	
+}

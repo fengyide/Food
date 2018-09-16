@@ -1,0 +1,237 @@
+/*
+* @Author: 123
+* @Date:   2018-08-09 22:00:22
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-10 08:24:44
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.top{
+	width: 100%;
+	height: 6.3rem;
+	background: #e60012;
+	padding: 0 0.24rem;
+}
+.top .return{
+	width: 100%;·
+	height: 0.88rem;
+	background: #e60012;
+	line-height: 0.88rem;
+	font-size: 0.6rem;
+}
+.top .return a{
+	color: white;
+}
+.top .text{
+	width: 100%;
+	height: 1.6rem;
+	background: #e60012;
+	padding-top: 0.2rem;
+}
+.top .text .one{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 0.2rem;
+	/* margin-top: 0.1rem; */
+}
+.top .text .one .song{
+	margin-top: 0.05rem;
+}
+.top .text .one .box {
+	width: 0.6rem;
+	height: 0.3rem;
+	background: #e60012;
+	border: 0.01rem solid white;
+	border-radius: 0.3rem;
+	margin-left: 0.2rem;
+	margin-top: 0.03rem;
+	font-size: 0.01rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.top .text .two{
+	font-size: 0.3rem;
+	color: white;
+	margin-top: 0.1rem;
+}
+.top .text .three{
+	font-size: 0.2rem;
+	color: white;
+	margin-top: 0.1rem;
+}
+.top .boxa{
+	background: white;
+	width: 100%;
+	height: 2.5rem;
+	border-radius: 0.1rem;
+}
+.top .boxa .texta{
+	width: 100%;
+	height: 50%;
+	background: white;
+	border-radius: 0.1rem 0.1rem 0 0 ;
+	padding: 0.24rem;
+	border-bottom: 0.05rem dotted #ededed;
+}
+.top .boxa .texta ul li:nth-child(1){
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.top .boxa .texta ul li:nth-child(2){
+	font-size: 0.26rem;
+	color: red;
+}
+.top .boxa .textb{
+	width: 100%;
+	height: 50%;
+	background: white;
+	border-radius: 0 0 0.1rem 0.1rem  ;
+	padding: 0.24rem;
+/* 	display: flex;
+	flex-direction: row; */
+}
+.top .boxa .textb ul li:nth-child(1){
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.top .boxa .textb ul li:nth-child(2){
+	font-size: 0.25rem;
+	font-weight: bold;
+	
+	text-align: right;
+}
+.top .boxa .textb ul li:nth-child(2) a{
+	color: #fb627e;
+}
+/* .center{
+	width: 100%;
+	height: 6rem;
+	background: pink;
+	padding: 0 0.24rem;
+} */
+.top .box{
+	width: 100%;
+	height: 7rem;
+	background: white;
+	margin-top: 0.2rem;
+	border-radius: 0.1rem;
+}
+.top .box ul li{
+	width: 100%;
+	height: 1.16rem;
+	background: white;
+	/* border: 0.01rem solid black; */
+	border-radius: 0.1rem;
+	padding: 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 0.05rem dotted #ededed;
+}
+.top .box ul li:nth-child(1){
+	font-size: 0.3rem;
+	line-height: 0.7rem;
+}
+.top .box ul li:nth-child(2) img{
+	width: 1rem;
+	height: 0.64rem;
+}
+.top .box ul li:nth-child(2) p{
+	font-size: 0.3rem;
+	line-height: 0.7rem;
+}
+.top .box ul li:nth-child(2) .cheng{
+	width: 0.6rem;
+	height: 0.3rem;
+	margin-top: 0.18rem;
+}
+.top .box ul li:nth-child(2) .money{
+	font-size: 0.3rem;
+	line-height: 0.65rem;
+	color: red;
+}
+.top .box ul li:nth-child(3){
+	font-size: 0.3rem;
+	color: black;
+	line-height: 0.7rem;
+}
+.top .box ul li:nth-child(3) a{
+	color: black;
+}
+.top .box ul li:nth-child(4){
+	font-size: 0.3rem;
+	color: black;
+	line-height: 0.7rem;
+}
+.top .box ul li:nth-child(4) .money{
+	font-size: 0.3rem;
+	color: red;
+}
+.top .box ul li:nth-child(5){
+	font-size: 0.3rem;
+	color: black;
+	line-height: 0.7rem;
+}
+.top .box ul li:nth-child(5) a{
+	color: #737373;
+}
+.top .box ul li:nth-child(6){
+	font-size: 0.3rem;
+	color: black;
+	line-height: 0.7rem;
+	border-bottom: 0.05rem dotted #ededed;
+}
+.top .box ul li:nth-child(6) a{
+	color: black;
+}
+.bottom{
+	width: 100%;
+	height: 1rem;
+	padding: 0.24rem;
+	background: white;
+	margin-top: 6rem;
+	border-top: 0.07rem dotted #d0cece;
+	display: flex;
+	flex-direction: row;
+}
+.bottom .one{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: red;
+	border-radius: 50%;
+	margin-top: 0.18rem;
+	margin-left: 0.2rem;
+}
+.bottom .two p{
+	font-size: 0.4rem;
+	color: red;
+	font-weight: bold;
+	margin-left: 0.2rem;
+}
+.bottom .three{
+	width: 2.1rem;
+	height: 0.66rem;
+	background: red;
+	border-radius: 0.3rem;
+	margin-top: -0.1rem;
+	margin-left: 2.8rem;
+	text-align: center;
+	line-height: 0.66rem;
+	font-weight: bold;
+}
+.bottom .three p{
+	font-size: 0.4rem;
+	color: white;
+}

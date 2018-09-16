@@ -1,0 +1,242 @@
+/*
+* @Author: 123
+* @Date:   2018-08-10 22:24:42
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-11 00:58:26
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+
+}
+.top{
+	width: 100%;
+	height: 6.3rem;
+	background: #e60012;
+	padding: 0 0.24rem;
+}
+.top .return{
+	width: 100%;·
+	height: 0.88rem;
+	background: #e60012;
+	line-height: 0.88rem;
+	font-size: 0.6rem;
+}
+.top .return a{
+	color: white;
+}
+.top .text{
+	width: 100%;
+	height: 1.6rem;
+	background: #e60012;
+	padding-top: 0.2rem;
+}
+.top .text .one{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 0.2rem;
+	/* margin-top: 0.1rem; */
+}
+.top .text .one .song{
+	margin-top: 0.05rem;
+}
+.top .text .one .box {
+	width: 0.6rem;
+	height: 0.3rem;
+	background: #e60012;
+	border: 0.01rem solid white;
+	border-radius: 0.3rem;
+	margin-left: 0.2rem;
+	margin-top: 0.03rem;
+	font-size: 0.01rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.top .text .two{
+	font-size: 0.3rem;
+	color: white;
+	margin-top: 0.1rem;
+}
+.top .text .three{
+	font-size: 0.2rem;
+	color: white;
+	margin-top: 0.1rem;
+}
+.top .inp{
+	width: 100%;
+	height: 10.84rem;
+	background: orange;
+	/* margin-left: 0.24rem;
+	margin-right: 0.24rem; */
+	padding: 0.2rem 0 0 0;
+	border-radius: 0.2rem 0.2rem 0 0;
+	position: relative;
+}
+.top .inp .yuan{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	top: 3rem;
+	left: -0.2rem;
+	background:#e60012;
+	border-radius: 50%;
+}
+.top .inp .yuan1{
+	position: absolute;
+	width: 0.4rem;
+	height: 0.4rem;
+	top: 3rem;
+	right: -0.2rem;
+	background:#e60012;
+	border-radius: 50%;
+}
+.top .inp .shang{
+	width: 100%;
+	height: 3.01rem;
+	background:#f7f7f7;
+/* 	margin-top: 0.5rem; */
+	border-radius: 0.1rem 0.1rem 0 0;
+	border-bottom: 0.05rem dotted red;
+}
+.top .inp .zi{
+	width: 2.5rem;
+	height: 1rem;
+	background: #f7f7f7;
+	margin-left: 2.2rem;
+}
+.top .inp .shang img{
+	width: 2.38rem;
+	height: 0.4rem;
+	margin-bottom: 0.3rem;
+}
+.top .inp .shang .tu{
+	width: 80%;
+	height: 2rem;
+	background: #f7f7f7;
+	margin-left: 0.7rem;
+}
+.top .inp .shang .tu img{
+	width: 2.4rem;
+	height: 1rem;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+}
+.top .inp .shang .tu .tu2{
+	margin-left: 0.05rem;
+	/* margin-right: 0.3rem; */
+}
+.top .inp .xia{
+	width: 100%;
+	height: calc(100% - 3.01rem);
+	background: #f7f7f7;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+}
+.top .inp  .xia .zi{
+	width: 4.1rem;
+	height: 1rem;
+	background: #f7f7f7;
+	margin-left: 1.44rem;
+}
+.top .inp .xia img{
+	width: 4rem;
+	height: 0.4rem;
+	margin-bottom: 0.3rem;
+}
+.top .inp .xia .list{
+	width: 100%;
+	height: 3.8rem;
+	display: flex;
+	flex-direction: column;
+}
+.top .inp .xia .list ul li{
+	width: 100%;
+	height: 1.2rem;
+	background: white;
+	margin-top: 0.3rem;
+	border-radius: 0.2rem;
+	padding: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-shadow: 0 0 0.04rem 0.03rem rgba(0, 0, 0, 0.1)
+}
+.top .inp .xia .list ul li .zuo{
+	width: 1rem;
+	height: 100%;
+	background: #f7f7f7;
+}
+.top .inp .xia .list ul li .zuo img{
+	width: 1rem;
+	height: 1rem;
+}
+.top .inp .xia .list ul li .center{
+	width: calc(100% - 2rem);
+	height: 100%;
+	background: white;
+}
+.top .inp .xia .list ul li .center .yhk{
+	font-size: 0.3rem;
+}
+.top .inp .xia .list ul li .center .zs{
+	font-size: 0.25rem;
+	color: #b5b1b1;
+	line-height: 0.6rem;
+}
+.top .inp .xia .list ul li .you{
+	width: 0.5rem;
+	height: 100%;
+	background: white;
+}
+.top .inp .xia .list ul li .you img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.top .inp .xia .list ul li .centera{
+	margin-right: 0.2rem;
+}
+.top .inp .xia .list ul li .youa{
+	width: 0.1rem;
+	height: 100%;
+	border-radius: 0.1rem;
+	background: #e60012;
+	margin-right: 0.2rem;
+}
+.top .inp .xia .zhifu{
+	width: 6.2rem;
+	height: 1rem;
+	background:#e60012;
+	margin-top: 1.2rem;
+	margin-left: 0.2rem;
+	border-radius: 0.5rem;
+	border: 0.05rem solid white;
+}
+.top .inp .xia .zhifu .one{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: white;
+	font-weight: bold;
+}
+.top .inp .xia .zhifu .two{
+	font-size: 0.1rem;
+	text-align: center;
+	/* line-height: 1rem; */
+	color: white;
+	font-weight: bold;
+	margin-top: -0.2rem;
+}

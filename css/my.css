@@ -1,0 +1,307 @@
+/*
+* @Author: 123
+* @Date:   2018-08-11 17:58:03
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-16 11:59:38
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.return{
+	width: 100%;
+	height: 1.5rem;
+	background: #d90a1d;
+}
+.return p{
+	font-size: 0.4rem;
+	color: white;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.center{
+	width: 100%;
+	height: calc(100% - 2.7rem);
+	padding: 0 0.24rem 0 0.24rem;
+	background: white;
+}
+.center .word{
+	width: 100%;
+	height: 1.04rem;
+	background: white;
+	padding-top: 0.3rem;
+}
+.center .word1{
+	padding-top: 0;
+}
+.center .word img{
+	display: block;
+	width: 3.5rem;
+	height: 0.45rem;
+	margin-left: 1.7rem;
+}
+.center .fujin{
+	width: 100%;
+	height: 4rem;
+	background: white;
+}
+.center .fujin ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 4rem;
+}
+.center .fujin ul li{
+	width: 50%;
+	height: 45%;
+	background: white;
+	display: flex;
+	flex-direction: row;
+}
+.center .fujin .left{
+	width: 1.5rem;
+	height: 1.5rem;
+	background: white;
+}
+.center .fujin ul li img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.center .fujin .right{
+	width: calc(100% - 1.5rem);
+	height: 1.5rem;
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+.center .fujin .right .one{
+	font-size: 0.25rem;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+}
+.center .fujin .right .two{
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+	color: #8f8f8f;
+}
+.center .fujin .right .juxing{
+	width: 100%;
+	height: 0.4rem;
+	background: white;
+	margin-top: 0.14rem;
+	display: flex;
+	flex-direction: row;
+}
+.center .fujin .right .juxing .zuo{
+	width: 0.65rem;
+	height: 0.3rem;
+	background: white;
+	border-radius: 0.2rem;
+	border: 0.02rem solid red;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+}
+.center .fujin .right .juxing .zuo{
+	font-size: 0.1rem;
+	color: red;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.center .fujin .right .three{
+	font-size: 0.1rem;
+	margin-left: 0.1rem;
+	line-height: 0.4rem;
+	color: #bdbdbd;
+}
+.center .list{
+	width: 100%;
+	height: 4.6rem;
+	background: white;
+}
+.center .list ul{
+	width: 100%;
+	height: 4.6rem;
+	display: flex;
+	flex-direction: column;
+}
+.center .list ul li{
+	width: 100%;
+	height: 33%;
+	background: green;
+	display: flex;
+	flex-direction: row;
+}
+.center .list ul li .left{
+	width: 1.4rem;
+	height: 100%;
+	background: white;
+}
+.center .list ul li .left img{
+	width: 1.35rem;
+	height: 1.35rem;
+}
+.center .list ul li .right{
+	width: calc(100% - 1.4rem);
+	height: 100%;
+	background: white;
+}
+.center .list ul li .right .one{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.center .list ul li .right .zhong{
+	width: 100%;
+	height: 0.5rem;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.center .list ul li .right .zhong .two{
+	font-size: 0.2rem;
+	font-weight: bold;
+	color: #8f8f8f;
+	line-height: 0.5rem;
+}
+.center .list ul li .right .zhong .ju{
+	width: 1.2rem;
+	height: 0.4rem;
+	border-radius: 0.3rem;
+	background: red;
+	margin-right: 0.2rem;
+}
+.center .list ul li .right .zhong .ju .you{
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.center .list ul li .right .juxing{
+	width: 100%;
+	height: 0.5rem;
+	background: white;
+/* 	margin-top: 0.14rem; */
+	display: flex;
+	flex-direction: row;
+}
+.center .list ul li .right .juxing .zuo{
+	width: 0.65rem;
+	height: 0.3rem;
+	background: white;
+	border-radius: 0.2rem;
+	border: 0.02rem solid red;
+	margin-top: 0.05rem;
+/* 	margin-left: 0.1rem; */
+}
+.center .list ul li .right .juxing .zuo{
+	font-size: 0.1rem;
+	color: red;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.center .list ul li .right .juxing .three{
+	font-size: 0.1rem;
+	margin-left: 0.1rem;
+	line-height: 0.4rem;
+	color: #bdbdbd;
+}
+.center .list ul li .right .juxing .ju{
+	width: 1.2rem;
+	height: 0.4rem;
+	border-radius: 0.3rem;
+	background: red;
+	margin-left: 2.72rem;
+}
+.center .list ul li .right .juxing .ju .you{
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	line-height: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  	width: 100%;
+  	height: 1.2rem;
+  	padding: 0.1rem 0.24rem;
+  	background: white;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	border-top: 1px solid #f2f2f2;
+  	position: fixed;
+	left: 0;
+	bottom: 0;
+  }
+  footer .text{
+  	width: 1rem;
+	height: 1rem;
+	/* background: green; */
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+  }
+
+footer .text img{
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.05rem;
+}
+footer .text .red{
+	color: #d90a1e;
+}
+footer .text span{
+	font-size: 0.14rem;
+}
+footer .text .fax{
+	margin-top: 0.15rem;
+	width: 0.7rem;
+	height: 0.5rem;
+}
+footer .text .hei1{
+	margin-top: 0.05rem;
+}
+
+footer .text .dingdan{
+	width: 0.5rem;
+	height: 0.6rem;
+	margin-top: 0.1rem;
+}
+footer .text .mine{
+	width: 0.55rem;
+	height: 0.6em;
+	margin-top: 0.1rem;
+}
+footer a{
+	color: black;
+}

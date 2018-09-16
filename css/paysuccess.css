@@ -1,0 +1,189 @@
+/*
+* @Author: 123
+* @Date:   2018-08-11 13:34:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-17 11:26:21
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+
+}
+.return{
+	width: 100%;
+	height: 0.88rem;
+	background: #e60012;
+	line-height: 0.88rem;
+	font-size: 0.6rem;
+} 
+.return a{
+	color: white;
+	margin-left: 0.24rem;
+}
+.return img{
+	width: 3.68rem;
+	height: 0.5rem;
+	margin-left: 1.26rem;
+}
+.main{
+	width: 100%;
+	height: calc(100% - 0.88rem);
+	background: white;
+	padding: 0.24rem;
+}
+.main .top{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 2.43rem;
+	background: white;
+	padding:  0.1rem 0.24rem;
+}
+.main .top .left{
+	width: 2.24rem;
+	height: 2.24rem;
+	background: white;
+}
+.main .top .left img{
+	width: 100%;
+	height: 100%;
+}
+.main .top .right{
+	width: calc(100% - 2.24rem);
+	height: 2.24rem;
+	background: white;
+	padding: 0.24rem;
+	display: flex;
+	flex-direction: column;
+}
+.main .top .right p{
+	margin-top: 0.1rem;
+}
+.main .top .right .one{
+	font-size: 0.4rem;
+	color: black;
+	margin-top: 0;
+}
+.main .top .right .two{
+	font-size: 0.4rem;
+	color: red;
+
+}
+.main .center{
+	width: 100%;
+	height: 1.5rem;
+	background: white;
+	display: flex;
+	flex-direction: row;
+}
+.main .center .one{
+	width: 1.44rem;
+	height: 0.55rem;
+	background: red;
+	border-radius: 0.4rem;
+	margin-top: 0.4rem;
+	margin-left: 1.4rem;
+}
+.main .center .one p{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.55rem;
+	color: white;
+}
+.main .center .two{
+	margin-left: 1.6rem;
+}
+.main .word{
+	width: 100%;
+	height: 0.6rem;
+	background: white;
+	margin-top: -0.2rem;
+}
+.main .word img{
+	width: 4.7rem;
+	height: 0.6rem;
+	display: block;
+	margin-left: 1.3rem;
+}
+.main .bottom{
+	width: 100%;
+	height: 7.7rem;
+	background: white;	
+}
+.main .bottom ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.main .bottom ul li{
+	width: 49%;
+	height: 49%;
+	background: white;
+	border-radius: 0.3rem;
+	border: 0.03rem solid #ff8d98;
+	display: flex;
+	flex-direction: column;
+}
+.main .bottom ul li:nth-child(2){
+	/* margin-top: 0.05rem; */
+	margin-left: 0.14rem;
+}
+.main .bottom ul li:nth-child(4){
+	/* margin-top: 0.05rem; */
+	margin-left: 0.14rem;
+	margin-top: 0.14rem;
+}
+.main .bottom ul li:nth-child(3){
+	/* margin-top: 0.05rem; */
+	margin-top: 0.14rem;
+}
+.main .bottom ul li .top{
+	width: 100%;
+	height: 2.3rem;
+	background: white;
+	border-radius: 0.3rem 0.3rem 0 0;
+	background-image: url('../img/beef、262977@2x.png');
+	background-position: center;
+	background-size: 100% 2.3rem;
+}
+.main .bottom ul li .top2{
+	background-image: url('../img/top2.png');
+}
+.main .bottom ul li .top3{
+	background-image: url('../img/top3.png');
+}
+.main .bottom ul li .top4{
+	background-image: url('../img/top4.png');
+}
+.main .bottom ul li .one{
+	font-size: 0.3rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.main .bottom ul li .two{
+
+	font-size: 0.25rem;
+	text-align: center;
+	color: #8d8d8d;
+}
+.main .bottom ul li .three{
+	font-size: 0.3rem;
+	text-align: center;
+	margin-top: 0.1rem;
+	color: #c80000;
+}

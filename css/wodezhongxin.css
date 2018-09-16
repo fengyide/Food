@@ -1,0 +1,231 @@
+/*
+* @Author: 123
+* @Date:   2018-08-11 21:46:28
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-16 12:01:21
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.top{
+	width: 100%;
+	height: 2.82rem;
+	padding: 0.24rem;
+	background: #d8091a;
+	display: flex;
+	flex-direction: row;
+}
+.top .left{
+	width: 2.35rem;
+	height: 2.35rem;
+	background: #d8091a;
+}
+.top .left img{
+	width: 2.35rem;
+	height: 2.35rem;
+}
+.top .right{
+	width: calc(100% - 2.35rem);
+	height: 100%;
+	background:#d8091a;
+	padding-left: 0.24rem;
+	display: flex;
+	flex-direction: column;
+}
+.top .right .one{
+	font-size: 0.4rem;
+	color: white;
+	font-weight: bold;
+	margin-top: 0.4rem;
+}
+.top .right .zhong{
+	width: 100%;
+	height: 0.4rem;
+	background:#d8091a;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.top .right .zhong .juxing{
+	width: 1.5rem;
+	height: 100%;
+	border-radius: 0.4rem;
+	background: white;
+}
+.top .right .zhong .juxing .two{
+	font-size: 0.25rem;
+	color: red;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.top .right .zhong a{
+	text-decoration: none;
+	font-size: 0.5rem;
+	color: white;
+	margin-top: -0.2rem;
+}
+.top .right .three{
+	width: 100%;
+	height: 0.5rem;
+	background: #d8091a;
+	margin-top: 0.2rem;
+	display: flex ;
+	flex-direction: row;
+}
+.top .right .three img{
+	width: 0.28rem;
+	height: 0.44rem;
+	display: block;
+}
+.top .right .three p{
+	font-size: 0.25rem;
+	color: white;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+.center{
+	width: 100%;
+	height: calc(100% - 4.02rem);
+	background: pink;
+	display: flex;
+	flex-direction: column;
+}
+.center .shang{
+	width: 100%;
+	height: 2.18rem;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.center .shang img{
+	width: 0.7rem;
+	height: 1.2rem;
+	margin-top: 0.5rem;
+}
+.center .shang .h1{
+	margin-top: 0.52rem;
+}
+.center .shang .h2{
+	width: 0.61rem;
+	height: 1.25rem;
+}
+.center .shang .h3{
+	width: 0.63rem;
+	height: 1.22rem;
+}
+.center ul{
+	width: 100%;
+	height: calc(100% - 2.18rem);
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+.center ul li{
+	width: 100%;
+	height: 15%;
+	background: white;
+	border: 0.01rem solid #fce0e0;
+	margin-top: 0.2rem;
+	padding-left: 0.5rem;
+	display: flex;
+	flex-direction: row;
+}
+.center ul li:nth-child(1){
+	margin: 0;
+}
+.center ul li img{
+	width: 0.5rem;
+	height: 0.5rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+.center ul li .one{
+	width: 0.4rem;
+	margin-left: 0.1rem;
+}
+.center ul li p{
+	font-size: 0.3rem;
+	color: black;
+	margin-left: 0.4rem;
+	margin-top: 0.25rem;
+	font-weight: bold;
+}
+
+
+
+
+
+
+footer{
+  	width: 100%;
+  	height: 1.2rem;
+  	padding: 0.1rem 0.24rem;
+  	background: white;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	border-top: 1px solid #f2f2f2;
+  	position: fixed;
+	left: 0;
+	bottom: 0;
+  }
+  footer .text{
+  	width: 1rem;
+	height: 1rem;
+	/* background: green; */
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+  }
+
+footer .text img{
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.05rem;
+}
+footer .text .red{
+	color: #d90a1e;
+}
+footer .text span{
+	font-size: 0.14rem;
+}
+footer .text .fax{
+	margin-top: 0.15rem;
+	width: 0.7rem;
+	height: 0.5rem;
+}
+footer .text .hei1{
+	margin-top: 0.05rem;
+}
+
+footer .text .dingdan{
+	width: 0.5rem;
+	height: 0.6rem;
+	margin-top: 0.1rem;
+}
+footer .text .mine{
+	width: 0.55rem;
+	height: 0.6em;
+	margin-top: 0.1rem;
+}
+footer a{
+	color: black;
+}
